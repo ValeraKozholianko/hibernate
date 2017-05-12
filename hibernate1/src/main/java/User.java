@@ -9,6 +9,14 @@ private String firstname;
 
 private String lastname;
 
+private Role role;
+
+public Role getRole() {
+	return role;
+}
+public void setRole(Role role) {
+	this.role = role;
+}
 public User(){
 	
 }
